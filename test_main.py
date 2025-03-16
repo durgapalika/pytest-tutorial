@@ -3,7 +3,7 @@ from main import add, perform_operation, Operator
 
 
 def test_add():
-    assert add(2, 3) == 5, "add 2 and 5 should be 5"
+    assert add(2, 3) == 5, "add 2 and 3 should be 5"
 
 
 @pytest.mark.parametrize("number1,number2,operation,expected,message", [
